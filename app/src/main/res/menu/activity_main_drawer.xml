@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera2"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/calculadoraFragment"
+            android:icon="@drawable/ic_menu_calculadora"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/ubicacionFragment"
+            android:icon="@drawable/ic_menu_ubicacion"
+            android:title="Ubicacion" />
+        <item
+            android:id="@+id/generadorFragment"
+            android:icon="@drawable/ic_menu_generador"
+            android:title="Generador de QR" />
+        <item
+            android:id="@+id/escanerFragment"
+            android:icon="@drawable/ic_menu_escaner"
+            android:title="Escaner" />
+
+    </group>
+</menu>
